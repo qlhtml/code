@@ -1,0 +1,334 @@
+.clearfix::after{
+	content:"";
+	height:0;
+	zoom:1;
+	display: block;
+	clear:both;
+}
+body{
+	background-color: transparent;
+}
+a:hover{
+	text-decoration: none;
+}
+/*header*/
+.header{
+	background: url(http://www.timyo.com/images/banner.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    padding-top: 6em;
+}
+/*nav*/
+.navbar,.navdefault{
+	background-color: transparent;
+	border:0;
+}
+.navbar-collapse .navbar-nav>li>a{
+	color:#333;
+	font-size: 28px;
+	padding-top:0.7em;
+}
+.navbar-collapse .navbar-nav>li>a:hover{
+	color:#777;
+}
+.container nav{
+	margin-bottom:2em;
+}
+.col-md-7 h2{
+	font-size:56px;
+	font-weight:200;
+}
+.col-md-7 a{    
+	color: rgb(0, 136, 204);
+    font-weight: 300;
+    font-size: 22px;
+}
+.box{
+	height:778px;
+	position:relative;
+}
+.box img{
+	position: absolute;
+	right:0;
+	opacity: 0;
+	filter: alpha(opacity = 0);
+}
+.box img:nth-child(1){
+	opacity: 1;
+	filter: alpha(opacity = 1);
+}
+/*按钮*/
+.btn-box{
+	width:100%;
+}
+.btn-box button{
+	padding:0.5em;
+	border:2px solid #fff;
+	background-color: transparent;
+	margin:1em 5px 2em;
+	margin-left:0;
+	border-radius: 50% 50%;
+}
+.btn-box button:last-child{
+	margin:0;
+}
+/*Available */
+.Available{
+	padding-top:50px;
+}
+.Available h3{
+	font-weight: 200;
+}
+.aimg{
+	margin:20px 0;
+}
+.aimg img{
+	width:203px;
+	height:60px;
+}
+.ibox{
+	display: inline-block;
+	border:1px solid #dfdfdf;
+}
+.ibox a:nth-of-type(1){
+	border:none;
+}
+.ibox input{
+	border:none;
+}
+.Available p:nth-of-type(2){
+	padding-top:40px;
+	margin:20px 0;
+	color:#404040;
+	font-size: 20px;
+	font-weight: 200;
+	border-top:1px solid #dfdfdf;
+}
+.Tbox input{
+	border:0;
+}
+.Tbox{
+	display: block;
+	height:40px;
+	line-height: 30px;
+	border:1px solid black;
+	color:#404040;
+}
+.Tbtn{
+	margin-bottom: 40px;
+}
+.Tb1{
+	background-image: url(http://www.timyo.com/images/android-icon.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 50px;
+	height:50px;
+	background-color: #dfdfdf;
+}
+.Tb2{
+	background-image: url("http://www.timyo.com/images/windows-icon.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-color: #dfdfdf;
+	width: 50px;
+	height:50px;
+}
+ /*Wait */
+.Wait{
+	background-color: #f7f7f7;
+    padding: 12em 0 8em;
+}
+.container h3{
+	font-size: 50px;
+    font-weight: 200;
+    color: #404040;
+}
+.col-md-7 p{
+    color: #404040;
+    font-weight: 200;
+    font-size: 21px;
+}
+.col-md-7 p:nth-child(1){
+	padding-top:30px;
+}
+/*Focu*/
+.Focu{
+	padding-top: 4em;
+	border-bottom: 1px solid rgba(132, 140, 154, 0.21);
+}
+.Focu h3{
+	font-size: 50px;
+    font-weight: 200;
+    color: #404040;
+}
+.ta{
+	margin-top:20px;
+}
+.ta a{
+	text-decoration: none;
+    color: rgb(0, 136, 204);
+    font-weight: 300;
+    font-size: 22px;
+}
+.glyphicon-play-circle{
+	 color: rgb(0, 136, 204);
+	}
+.t6 ul{
+	margin-top:100px;
+}
+.wzl{
+	margin-bottom: 30px;
+}
+.wzl h4{
+	margin: 0;
+    font-size: 20px;
+    color: #40a3fc;
+    font-weight: 300;
+    background-image: url('http://www.timyo.com/images/blue-box.png');
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.wzl p{
+	font-size: 18px;
+    margin: 0;
+    color: #686868;
+    font-weight: 200;
+}
+/*expectations*/
+.expectations{
+	padding-bottom: 2em;
+    padding-top: 8em;
+    background: #f7f7f7;
+}
+.col-md-4 h3{
+	font-size: 50px;
+    font-weight: 200;
+    color: #404040;
+}
+.col-md-4 p{
+	font-size: 18px;
+    margin: 40px 0;
+    color: #686868;
+    font-weight: 200;
+}
+/*work*/
+.work{
+	padding: 4em 0;
+}
+.work h3{
+	font-size: 50px;
+    font-weight: 200;
+    color: #404040;
+    margin-bottom: 64px;
+}
+/*mission */
+.mission {
+	padding: 4em 0;
+	background: #f7f7f7;
+}
+.mission h3{
+	font-size: 50px;
+    font-weight: 200;
+    color: #404040;
+    margin-bottom: 64px;
+}
+.mission li{
+	padding-top: 70px;
+	padding-right:20px;
+	
+}
+.ml1{
+	background-image: url("http://www.timyo.com/images/clarity.png");
+	background-repeat: no-repeat;
+	background-position:50% 0;
+}
+.ml2{
+	background-image:url("http://www.timyo.com/images/productivity.png");
+}
+.ml3{
+	background-image:url("http://www.timyo.com/images/peace2.png");
+}
+.ml1 h4{
+	font-size: 50px;
+    font-weight: 200;
+    color: yellow;
+    margin-bottom: 64px;
+}
+.ml2 h4{
+	color:blue;
+}
+.ml3 h4{
+	color:green;
+}
+.ml1 p{font-size: 18px;
+    color: #686868;
+    font-weight: 200;
+}
+/*email*/
+.email{
+	padding: 4em 0;
+}
+.email h3{
+	font-size: 50px;
+    font-weight: 200;
+    color: #404040;
+    margin-bottom: 64px;
+}
+.wzl2{
+	margin-bottom: 30px;
+}
+.wzl2 h4{
+	margin: 0;
+    font-size: 20px;
+    color: #40a3fc;
+    font-weight: 300;
+    background-image: url('http://www.timyo.com/images/blue-box.png');
+    background-repeat: no-repeat;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+.wzl2 p{
+	font-size: 18px;
+    margin: 0;
+    color: #686868;
+    font-weight: 200;
+}
+.tl1{
+	margin:0;
+}
+.tl1 a img{
+	width:203px;
+	height:62px;
+}
+/*footer*/
+.footer{
+	padding:10px 0 20px;
+}
+.footer h4{
+	color: #404040;
+    font-size: 16px;
+    font-weight: 200;
+} 
+.abox a{
+	padding-right: 4px;
+	color:#1B242F;
+	border-right:1px solid #1B242F;
+}
+.abox a:hover{
+	color:red;
+	text-decoration: underline;
+}
+.footer small{
+	color: #404040;
+}
+/*ad*/
+.ad{
+	position:fixed;
+	bottom:20px;
+	right:10px;
+	z-index: 100;
+}
+.ad img{
+	width: 203px;
+	height:60px;
+}
